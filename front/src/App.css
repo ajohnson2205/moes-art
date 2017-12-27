@@ -26,3 +26,24 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.yellow {
+  background-color: yellow;
+}
+
+
+.green {
+  background-color: green;
+}
+
+.center-cropped {
+  width: 240px;
+  height: 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+html {
+  background-color: gray;
+}
