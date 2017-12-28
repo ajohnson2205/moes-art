@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 import './bootstrap.min.css'
 
+import logo from '../images/logo.jpeg'
+
 class Navbar extends Component {
   render() {
     return (
@@ -11,6 +13,7 @@ class Navbar extends Component {
       <header>
         <div>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          {/* <img src={logo} className="logo"/> */}
           <Link to="/" className="navbar-brand">Moe's Art</Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
