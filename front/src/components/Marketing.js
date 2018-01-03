@@ -11,6 +11,12 @@ import tree from '../images/christmasCardTree.jpeg'
 import house from '../images/houseAndTruck.jpg'
 
 
+import cat500px from '../images/rawImages/cat500px.jpeg'
+import caseyBear500px from '../images/rawImages/caseyBear500px.jpeg'
+import otherCat500px from '../images/rawImages/otherCat500px.jpeg'
+
+
+
 
 
 
@@ -29,22 +35,22 @@ class Marketing extends Component {
 
             <div className="row">
               <div className="col-lg-4">
-                <img className="rounded-circle" src={bears} alt="Generic placeholder image" width="140" height="140" />
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><Link className="btn btn-secondary" to="/about" role="button">View details &raquo;</Link></p>
+                <img className="rounded-circle" src={cat500px} alt="Generic placeholder image" width="140" height="140" />
+                <h2>Store</h2>
+                <p>You can buy things here. It will cost money, generally in US dollars. But that's probably already an expectation, eh?</p>
+                <p><Link className="btn btn-secondary" to="/store" role="button">Shop &raquo;</Link></p>
               </div>
               <div className="col-lg-4">
-                <img className="rounded-circle" src={bears} alt="Generic placeholder image" width="140" height="140" />
-                <h2>Heading</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><Link className="btn btn-secondary" to="/about" role="button">View details &raquo;</Link></p>
+                <img className="rounded-circle" src={caseyBear500px} alt="Generic placeholder image" width="140" height="140" />
+                <h2>Gallery</h2>
+                <p>Pictures of stuff and shit. And so on and so forth. Blah blah blah, this is where there are pictures.</p>
+                <p><Link className="btn btn-secondary" to="/gallery" role="button">Browse &raquo;</Link></p>
               </div>
               <div className="col-lg-4">
-                <img className="rounded-circle" src={bears} alt="Generic placeholder image" width="140" height="140" />
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><Link className="btn btn-secondary" to="/about" role="button">View details &raquo;</Link></p>
+                <img className="rounded-circle" src={otherCat500px} alt="Generic placeholder image" width="140" height="140" />
+                <h2>About</h2>
+                <p>Monica is a turd, but not just that! She's so much more! Learn about her tortuous existence and the people that have to tolerate her.</p>
+                <p><Link className="btn btn-secondary" to="/about" role="button">Learn &raquo;</Link></p>
               </div>
             </div>
             </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './bootstrap.min.css';
 import './Navbar.css'
@@ -7,7 +8,7 @@ import './Navbar.css'
 import bears from '../images/polarBears.jpeg'
 import tree from '../images/christmasCardTree.jpeg'
 import house from '../images/houseAndTruck.jpg'
-
+import instagramScreenshot from '../images/instagramScreenshot.png'
 
 
 
@@ -28,30 +29,30 @@ class Carousel extends Component {
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-          <div className="carousel-item active background-three-dogs">
+          <div className="carousel-item active background-instagramScreenshot">
             <div className="container">
-              <div className="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <div className="carousel-caption">
+                <h1>Visit us on Instagram.</h1>
+                <p>Our newest work can always be seen on Instagram.</p>
+                <p><a className="btn btn-lg btn-primary" href="https://www.instagram.com/moesart5/" target="_blank">See more</a></p>
               </div>
             </div>
           </div>
           <div className="carousel-item background-polar-bears">
             <div className="container">
               <div className="carousel-caption">
-                <h1>Another example headline.</h1>
+                <h1>Learn about Moe.</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <p><Link className="btn btn-lg btn-primary" to="/about" role="button">Learn more</Link></p>
               </div>
             </div>
           </div>
           <div className="carousel-item background-leumur-and-stars">
             <div className="container">
-              <div className="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
+              <div className="carousel-caption">
+                <h1>Browse our gallery.</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <p><Link className="btn btn-lg btn-primary" to="/gallery" role="button">Browse gallery</Link></p>
               </div>
             </div>
           </div>

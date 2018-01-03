@@ -6,6 +6,7 @@ import Home from './pages/Home.js'
 import About from './pages/About.js'
 import Contact from './pages/Contact.js'
 import Gallery from './pages/Gallery.js'
+import Store from './pages/Store.js'
 
 class App extends Component {
   render() {
@@ -16,6 +17,8 @@ class App extends Component {
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/gallery" component={Gallery}/>
+          <Route exact path="/store" component={Store}/>
+
         </div>
       </Router>
     );

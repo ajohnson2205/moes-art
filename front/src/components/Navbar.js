@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 import './bootstrap.min.css'
 
-import logo from '../images/logo.jpeg'
+
+
 
 class Navbar extends Component {
   render() {
@@ -20,16 +21,24 @@ class Navbar extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto nav-pills">
+              {/* <li className="nav-item">
+                <Link to="/Store" className="nav-link">Store</Link>
+              </li> */}
               <li className="nav-item">
-                <Link to="/gallery" className="nav-link">Gallery<span className="sr-only">(current)</span></Link>
+                <Link to="/gallery" className="nav-link">Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">About</Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/contact" className="nav-link">Contact</Link>
+              </li> */}
+              <li className="nav-item">
+                <a href="https://www.instagram.com/moesart5/" className="nav-link" target="_blank">Instagram</a>
               </li>
             </ul>
+
+
           </div>
         </nav>
       </div>

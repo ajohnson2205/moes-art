@@ -67,6 +67,11 @@ body {
   letter-spacing: -.05rem;
 }
 
+.featurette-heading-baby {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -82,6 +87,10 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  .featurette-heading-baby {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 62em) {
@@ -90,13 +99,19 @@ body {
   }
 }
 
+@media (min-width: 62em) {
+  .featurette-heading-baby {
+    margin-top: 1rem;
+  }
+}
+
 
 
 
 /* For the carousel */
 
-.background-three-dogs {
-  background-image: url(../images/threeDogsInAtNight.jpeg);
+.background-instagramScreenshot {
+  background-image: url(../images/instagramScreenshot.png);
   background-size: cover;
 }
 

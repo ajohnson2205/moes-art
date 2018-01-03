@@ -14,7 +14,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <Carousel />
-        <Marketing />
+        {/* <Marketing /> */}
         <Featurette />
         <Footer />
       </div>

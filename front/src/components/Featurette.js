@@ -24,7 +24,7 @@ class Featurette extends Component {
 
 <div className="container">
 
-      <hr className="featurette-divider" />
+      {/* <hr className="featurette-divider" /> */}
 
              <div className="row featurette">
                <div className="col-md-7">
