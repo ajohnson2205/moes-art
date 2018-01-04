@@ -8,7 +8,7 @@ import './Navbar.css'
 import bears from '../images/polarBears.jpeg'
 import tree from '../images/christmasCardTree.jpeg'
 import house from '../images/houseAndTruck.jpg'
-import instagramScreenshot from '../images/instagramScreenshot.png'
+import instagramImages from '../images/instagramImages.png'
 
 
 
@@ -29,7 +29,7 @@ class Carousel extends Component {
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-          <div className="carousel-item active background-instagramScreenshot">
+          <div className="carousel-item active background-instagramImages">
             <div className="container">
               <div className="carousel-caption">
                 <h1>Visit us on Instagram.</h1>

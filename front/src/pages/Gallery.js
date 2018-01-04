@@ -5,7 +5,7 @@ import './bootstrap.min.css'
 import '../components/Navbar.css'
 
 import Navbar from '../components/Navbar.js'
-
+import Footer from '../components/Footer.js'
 
 
 
@@ -334,6 +334,8 @@ class Gallery extends Component {
 
 
       </div>
+      <hr className="featurette-divider" />
+      <Footer />
     </div>
     )
   }

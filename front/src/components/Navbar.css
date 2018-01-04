@@ -101,7 +101,7 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading-baby {
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 }
 
@@ -110,8 +110,8 @@ body {
 
 /* For the carousel */
 
-.background-instagramScreenshot {
-  background-image: url(../images/instagramScreenshot.png);
+.background-instagramImages {
+  background-image: url(../images/instagramImages.png);
   background-size: cover;
 }
 
@@ -135,4 +135,16 @@ body {
 
 .row-grid {
     margin-top: 30px;
+}
+
+
+.fa-instagram {
+  font-size:35px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+
+.mah-flex {
+  display: flex;
 }

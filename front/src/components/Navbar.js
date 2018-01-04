@@ -21,20 +21,14 @@ class Navbar extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto nav-pills">
-              {/* <li className="nav-item">
-                <Link to="/Store" className="nav-link">Store</Link>
-              </li> */}
               <li className="nav-item">
                 <Link to="/gallery" className="nav-link">Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">About</Link>
               </li>
-              {/* <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contact</Link>
-              </li> */}
               <li className="nav-item">
-                <a href="https://www.instagram.com/moesart5/" className="nav-link" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/moesart5/" className="nav-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               </li>
             </ul>
 
