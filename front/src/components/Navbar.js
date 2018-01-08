@@ -28,7 +28,7 @@ class Navbar extends Component {
                 <Link to="/about" className="nav-link">About</Link>
               </li>
               <li className="nav-item">
-                <a href="https://www.instagram.com/moesart5/" className="nav-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/moesart5/" className="nav-link mah-flex" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               </li>
             </ul>
 

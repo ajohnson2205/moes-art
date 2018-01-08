@@ -106,7 +106,7 @@ class Gallery extends Component {
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">A baker in a bakery</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">A baker in a bakery</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -126,7 +126,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">A picture of Casey the Bear</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">A picture of Casey the Bear</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -146,7 +146,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">A picture of a cat</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">A picture of a cat</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -165,7 +165,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"christmasCard"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"christmasCard"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -185,7 +185,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"dinos"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"dinos"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -204,7 +204,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"houseAndTruck"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"houseAndTruck"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -223,7 +223,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"lemur"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"lemur"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -242,7 +242,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"mirror"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"mirror"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -261,7 +261,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"otherCat"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"otherCat"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -280,7 +280,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"polarbears"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"polarbears"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -299,7 +299,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"threeDogs"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"threeDogs"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -318,7 +318,7 @@ class Gallery extends Component {
   <div className="modal-dialog modal-md" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">"treehouseNight"</h5>
+        {/* <h5 className="modal-title" id="exampleModalLabel">"treehouseNight"</h5> */}
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

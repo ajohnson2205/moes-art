@@ -65,7 +65,7 @@ class FeaturetteAbout extends Component {
       <div className="col-md-7">
         <h2 className="featurette-heading-baby">Contact.</h2>
         <p className="lead">
-          Email me fucker.
+          <a href="mailto:monica@moesart.net?Subject=Hello%20again" target="_top">Contact Us</a>
         </p>
       </div>
 

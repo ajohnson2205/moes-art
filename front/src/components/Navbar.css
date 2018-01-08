@@ -24,7 +24,8 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 20rem;
+  /* Used to be 32 rem */
   background-color: #777;
 }
 .carousel-item > img {
@@ -116,12 +117,12 @@ body {
 }
 
 .background-polar-bears {
-  background-image: url(../images/polarBears.jpeg);
+  background-image: url(../images/polarBearsCropped.jpeg);
   background-size: cover;
 }
 
 .background-leumur-and-stars {
-  background-image: url(../images/lemurAndStars.jpeg);
+  background-image: url(../images/cityscape.jpg);
   background-size: cover;
 }
 
