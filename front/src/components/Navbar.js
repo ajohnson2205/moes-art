@@ -15,7 +15,7 @@ class Navbar extends Component {
         <div>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           {/* <img src={logo} className="logo"/> */}
-          <Link to="/" className="navbar-brand">Moe's Art</Link>
+          <Link to="/" className="navbar-brand">Moe's Art Studio</Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

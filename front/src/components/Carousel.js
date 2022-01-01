@@ -33,8 +33,8 @@ class Carousel extends Component {
             <div className="container">
               <div className="carousel-caption">
                 <h1>Visit us on Instagram.</h1>
-                <p>Our newest work can always be seen on Instagram.</p>
-                <p><a className="btn btn-lg btn-primary" href="https://www.instagram.com/moesart5/" target="_blank">See more</a></p>
+                {/* <p>Find our newest work</p> */}
+                <p><a className="btn btn-lg btn-primary" href="https://www.instagram.com/moesart5/" target="_blank">Take me there</a></p>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ class Carousel extends Component {
             <div className="container">
               <div className="carousel-caption">
                 <h1>Learn about Moe.</h1>
-                <p>Monica is a fascinating person and you should learn more about her right here.</p>
+                {/* <p>Born and raised on the Oregon coast, and so much more.</p> */}
                 <p><Link className="btn btn-lg btn-primary" to="/about" role="button">Learn more</Link></p>
               </div>
             </div>
@@ -51,7 +51,7 @@ class Carousel extends Component {
             <div className="container">
               <div className="carousel-caption">
                 <h1>Browse our gallery.</h1>
-                <p>It's full of pictures and shit!</p>
+                {/* <p>It's full of pictures and shit!</p> */}
                 <p><Link className="btn btn-lg btn-primary" to="/gallery" role="button">Browse gallery</Link></p>
               </div>
             </div>
