@@ -28,12 +28,12 @@ class Featurette extends Component {
 
              <div className="row featurette">
                <div className="col-md-7">
-                 <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
-                 <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                 <h2 className="featurette-heading">Visit our gallery. <span className="text-muted">See portfolio samples.</span></h2>
                </div>
                <div className="col-md-5">
                  <img className="featurette-image img-fluid mx-auto" src={christmasCardTree500px} alt=" " />
                </div>
+               <span><p><Link className="btn btn-lg btn-primary" to="/gallery" role="button">Take me there!</Link></p></span>
              </div>
 
              <hr className="featurette-divider" />

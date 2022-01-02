@@ -51,7 +51,17 @@ class Gallery extends Component {
     return (
       <div>
       <Navbar />
+      <div className="container">
 
+      {/* <hr className="featurette-divider" /> */}
+
+             <div className="row featurette">
+               <div className="col-md-7">
+                 <h2 className="featurette-heading">Gallery</h2>
+                 <p className="text-muted"> Tap or click to see the the complete pieces.</p>
+               </div>
+            </div>  
+        </div>
       <div className="container">
         <div className="row row-grid">
           <div className="col-sm-6 col-md-4 col-lg-4 row-grid">
